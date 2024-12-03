@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/css.css">
+  <link rel="icon" type="image/svg" href="../img/icono.svg">
+  <title>Historia</title>
+</head>
+<body>
+<!--Menu------------------------------------------------------->
+    <nav class="navbar navbar-expand-md  navbar-dark ">
+      <a href="../index.html" class="navar-brand">
+       <img src="../img/logo_de_warcraft.png"  width="60" height="60" alt="logo" class="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgesa" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="hamburgesa">
+         <div class="navbar-nav navegador-text mr-auto ">
+         <a class="nav-item nav-link font-weight-bold" href="personajes.html">Personajes<span class="sr-only">(current)</span></a>
+         <a class="nav-item nav-link font-weight-bold" href="regiones.html">Regiones</a>
+         <a class="nav-item nav-link font-weight-bold" href="#">Historias</a>
+
+       </div>
+     </div>
+    </nav>
+
+<section>
+    <div class="container-fluid body_historia">
+      <div class="container p-0" style="max-width:1290px">
+              <div class="titulo_historia">
+                <h1>Historia</h1>
+              </div>
+          <!--Menu_2 Md------------------------------------------------------->
+          <div class=" menu_2 my-3 d-none d-md-block ">
+            <div class="list-group position-relative d-flex flex-row mr-auto " id="list-tab" role="tablist">
+              <div class="Filtrar">
+                <h5>Filtrar por</h5>
+              </div>
+                <a class=" list-group-item-action active" id="list-todo" data-toggle="list" href="#Todo" role="tab" aria-controls="Todo">Todo</a>
+                <a class=" list-group-item-action" id="list-Historias" data-toggle="list" href="#Historias" role="tab" aria-controls="Historias">Historias</a>
+                <a class=" list-group-item-action" id="list-Historias_Cortas" data-toggle="list" href="#Historias_Cortas" role="tab" aria-controls="Historias_Cortas">Historias Cortas</a>
+                <a class=" list-group-item-action" id="list-Videos" data-toggle="list" href="#Videos" role="tab" aria-controls="Videos">Videos</a>
+            </div>
+
+
+          </div>
+          <!--Menu_2_sm------------------------------------------------------->
+          <div class="menu_2 dropdown d-block d-md-none">
+            <button class="btn dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Filtrar por
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div class="list-group">
+                <a class=" list-group-item-action active" id="list-todo" data-toggle="list" href="#Todo" role="tab" aria-controls="Todo">Todo</a>
+                <a class=" list-group-item-action" id="list-Historias" data-toggle="list" href="#Historias" role="tab" aria-controls="Historias">Historias</a>
+                <a class=" list-group-item-action" id="list-Historias_Cortas" data-toggle="list" href="#Historias_Cortas" role="tab" aria-controls="Historias_Cortas">Historias Cortas</a>
+                <a class=" list-group-item-action" id="list-Videos" data-toggle="list" href="#Videos" role="tab" aria-controls="Videos">Videos</a>
+              </div>
+            </div>
+          </div>
+          <!--Historias------------------------------------------------------->
+        <div class="tab-content" id="nav-tabContent">
+                    <!--Historias_Todos------------------------------------------------------->
+                    <div class="tab-pane fade show active" id="Todo" role="tabpanel" aria-labelledby="list-todo">
+                      <div class="row Historias m-0">
+                        <div class="col-12 col-sm-6  col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_1.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/Origen_n.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Origen Vol.1 </h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_6.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/hedear/el azeroth primedial.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>El azeroth primedial </h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_3.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\Warbringers_Sylvanas.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Líderes de guerra Sylvanas</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">Corto animado</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_7.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/hedear/La Antigua Kalimdor.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>La antigua kalimdor</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_8.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\warcraft los señores elementales.png" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>la ira de los forjados por los titanes</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_2.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\Líderes de guerra Azshara.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Líderes de guerra Azshara</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">Corto animado</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_4.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\Líderes_de_guerra_Jaina.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Líderes de guerra Jaina</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">Corto animado</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_2.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\hedear\El fin de la corrupció.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>El fin de la corrupción </h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_3.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/hedear/maraudon.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Maraudon y el nacimiento de los Centauros</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_4.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\la_plaga.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2> La Plaga de los <br>no-muertos </h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_5.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\hedear\La purga de Stratholme.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>La purga de Stratholme</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_9.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\sargeras_y_legion.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>La cruzada ardiente</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_1.1.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\Thorim_enojado.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>La Traición de loken</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_1.2.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\mano_de_tyr.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Los Discos de Norgannon</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_5.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\Presagistas La historia de Gul'dan.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Presagistas <br> Gul'dan</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">Corto animado</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_6.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\Harbingers_Khadgar.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Presagistas <br> Khadgar</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">Corto animado</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_7.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\Presagistas_Illidan.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Presagistas <br> Illidan</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">Corto animado</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_1.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\La_edad_de_los_mil_reyes.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>La Edad de los mil reyes</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_1.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/Rey_exanime.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Shadowlands</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">Cinemática</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="#" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/historias/Alzamiento como rey.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Alzamiento como rey</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="#" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/hedear/gosh_n.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Gladiador</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="#" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/hedear/El retorno del rey.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>El retorno del rey</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Historias_Historias------------------------------------------------------->
+                    <div class="tab-pane fade" id="Historias" role="tabpanel" aria-labelledby="list-historias">
+                      <div class="row Historias m-0">
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_1.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img/Origen_n.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>Origen Vol.1 </h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_6.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img/hedear/el azeroth primedial.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>El azeroth primedial </h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_7.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img/hedear/La Antigua Kalimdor.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>La antigua kalimdor</h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_3.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img/hedear/maraudon.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>Maraudon y el nacimiento de los Centauros</h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto" alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_8.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img\historias\warcraft los señores elementales.png" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>la ira de los forjados por los titanes</h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto" alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_9.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img\historias\sargeras_y_legion.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>La cruzada ardiente</h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto" alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_1.1.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img\historias\Thorim_enojado.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>La Traición de loken</h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto" alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_1.2.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img\historias\mano_de_tyr.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>Los Discos de Norgannon</h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto" alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                                      <a href="historias/historia_1.html" class=" hi_cuadro">
+                                          <img class="img_his" src="../img\historias\La_edad_de_los_mil_reyes.jpg" alt="historia">
+                                                  <div class="degrade"></div>
+                                                    <div class="his_titulo">
+                                                      <h2>La Edad de los mil reyes</h2>
+                                                      <div class="d-flex">
+                                                        <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                                        <p class="px-1 my-auto mx-0">historia</p>
+                                                      </div>
+                                                    </div>
+                                                  <div class="border_historia"></div>
+                                      </a>
+                                    </div>
+                      </div>
+                    </div>
+
+                    <!--Historias_Cortas------------------------------------------------------->
+                    <div class="tab-pane fade" id="Historias_Cortas" role="tabpanel" aria-labelledby="list-Historias_Cortas">
+                      <div class="row Historias m-0">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_2.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\hedear\El fin de la corrupció.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>El fin de la corrupción </h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historias/historia_4.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\historias\la_plaga.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2> La Plaga de los <br>no-muertos </h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="historia_5.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img\hedear\La purga de Stratholme.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>La purga de Stratholme</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_1.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/historias/Alzamiento como rey.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Alzamiento como rey</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_1.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/hedear/gosh_n.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>Gladiador</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                          <a href="videos/videos_1.html" class=" hi_cuadro  ">
+                              <img class="img_his" src="../img/hedear/El retorno del rey.jpg" alt="historia">
+                                      <div class="degrade"></div>
+                                        <div class="his_titulo">
+                                          <h2>El retorno del rey</h2>
+                                          <div class="d-flex">
+                                            <img src="../img/icons/libro_icon.svg" width="25" height="auto"alt="libro">
+                                            <p class="px-1 my-auto mx-0">historia corta</p>
+                                          </div>
+                                        </div>
+                                      <div class="border_historia"></div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Historias_Videos------------------------------------------------------->
+                    <div class="tab-pane fade" id="Videos" role="tabpanel" aria-labelledby="list-Videos">
+                      <div class="row Historias m-0">
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                            <a href="videos/videos_1.html" class=" hi_cuadro  ">
+                                <img class="img_his" src="../img/Rey_exanime.jpg" alt="historia">
+                                        <div class="degrade"></div>
+                                          <div class="his_titulo">
+                                            <h2>Shadowlands</h2>
+                                            <div class="d-flex">
+                                              <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                              <p class="px-1 my-auto mx-0">Cinemática</p>
+                                            </div>
+                                          </div>
+                                        <div class="border_historia"></div>
+                            </a>
+                          </div>
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                            <a href="videos/videos_2.html" class=" hi_cuadro  ">
+                                <img class="img_his" src="../img\historias\Líderes de guerra Azshara.jpg" alt="historia">
+                                        <div class="degrade"></div>
+                                          <div class="his_titulo">
+                                            <h2>Líderes de guerra Azshara</h2>
+                                            <div class="d-flex">
+                                              <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                              <p class="px-1 my-auto mx-0">Corto animado</p>
+                                            </div>
+                                          </div>
+                                        <div class="border_historia"></div>
+                            </a>
+                          </div>
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                            <a href="videos/videos_3.html" class=" hi_cuadro  ">
+                                <img class="img_his" src="../img\historias\Warbringers_Sylvanas.jpg" alt="historia">
+                                        <div class="degrade"></div>
+                                          <div class="his_titulo">
+                                            <h2>Líderes de guerra Sylvanas</h2>
+                                            <div class="d-flex">
+                                              <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                              <p class="px-1 my-auto mx-0">Corto animado</p>
+                                            </div>
+                                          </div>
+                                        <div class="border_historia"></div>
+                            </a>
+                          </div>
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                            <a href="videos/videos_4.html" class=" hi_cuadro  ">
+                                <img class="img_his" src="../img\historias\Líderes_de_guerra_Jaina.jpg" alt="historia">
+                                        <div class="degrade"></div>
+                                          <div class="his_titulo">
+                                            <h2>Líderes de guerra Jaina</h2>
+                                            <div class="d-flex">
+                                              <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                              <p class="px-1 my-auto mx-0">Corto animado</p>
+                                            </div>
+                                          </div>
+                                        <div class="border_historia"></div>
+                            </a>
+                          </div>
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                            <a href="videos/videos_5.html" class=" hi_cuadro  ">
+                                <img class="img_his" src="../img\historias\Presagistas La historia de Gul'dan.jpg" alt="historia">
+                                        <div class="degrade"></div>
+                                          <div class="his_titulo">
+                                            <h2>Presagistas <br> Gul'dan</h2>
+                                            <div class="d-flex">
+                                              <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                              <p class="px-1 my-auto mx-0">Corto animado</p>
+                                            </div>
+                                          </div>
+                                        <div class="border_historia"></div>
+                            </a>
+                          </div>
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                            <a href="videos/videos_6.html" class=" hi_cuadro  ">
+                                <img class="img_his" src="../img\historias\Harbingers_Khadgar.jpg" alt="historia">
+                                        <div class="degrade"></div>
+                                          <div class="his_titulo">
+                                            <h2>Presagistas <br> Khadgar</h2>
+                                            <div class="d-flex">
+                                              <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                              <p class="px-1 my-auto mx-0">Corto animado</p>
+                                            </div>
+                                          </div>
+                                        <div class="border_historia"></div>
+                            </a>
+                          </div>
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+                            <a href="videos/videos_7.html" class=" hi_cuadro  ">
+                                <img class="img_his" src="../img\historias\Presagistas_Illidan.jpg" alt="historia">
+                                        <div class="degrade"></div>
+                                          <div class="his_titulo">
+                                            <h2>Presagistas <br> Illidan</h2>
+                                            <div class="d-flex">
+                                              <img src="../img/icons/video_icon.svg" width="25" height="auto"alt="libro">
+                                              <p class="px-1 my-auto mx-0">Corto animado</p>
+                                            </div>
+                                          </div>
+                                        <div class="border_historia"></div>
+                            </a>
+                          </div>
+                      </div>
+                    </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--<footer>------------------------------------------------------->
+<footer class="container-fluid py-3 mt-0">
+          <div class="container nar_2">
+            <div class="row justify-content-center">
+              <a href="personajes.html" class="col-12 col-sm-12 col-md-4   font-weight-bold p-1">Personajes</a>
+              <a href="regiones.html" class="col-12 col-sm-12 col-md-4    font-weight-bold p-1">Regiones</a>
+              <a href="historia.html" class="col-12 col-sm-12 col-md-4   font-weight-bold p-1">Historia</a>
+
+            </div>
+          </div>
+          <div class="container text-center">
+            <img src="../img/logo_2.png" width="250px" alt="logo_2">
+            <p class="my-2 text-center">©2020 Blizzard Entertainment, Inc. Todos los derechos reservados.<br>
+              Todas las marcas comerciales a las que se hace referencia son propiedad de sus respectivos dueños.</p>
+            <div class="row p-0  justify-content-center">
+              <img src="../img/teen.png" width="60px" alt="logo_de_avertencia">
+              <p class="text-left mx-3">sangre<br> violencia de fantisía <br> Temas insinuatens moderadas<br> Uso de alcohol y tabaco <br> Interacciones en linea no clasificadas por la ESBR</p>
+            </div>
+          </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
